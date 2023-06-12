@@ -1,0 +1,38 @@
+
+
+
+# liste=[]
+# def run(liste,datarow):
+#     liste.append(datarow)    
+#     if len(liste)==3:
+#         df = pd.DataFrame(data=liste)
+
+ 
+#         temp=np.zeros(df.shape + (3,))
+#         temp[:, :, 0]=anaTrain
+#         temp[:, :, 1]=ilkshiftTrain
+#         temp[:, :, 2]=ikincishiftTrain
+#         train_datam=temp[3:,:,:]
+#         result=model.predict(train_datam)
+#         return result
+#     elif len(liste)>3:
+#         liste.pop(0)
+#         df = pd.DataFrame(data=liste)
+#         anaTrain=df.values
+
+#         temp=np.zeros(df.shape + (3,))
+#         temp[:, :, 0]=anaTrain
+#         temp[:, :, 1]=ilkshiftTrain
+#         temp[:, :, 2]=ikincishiftTrain
+#         train_datam=temp[3:,:,:]
+#         result=model.predict(train_datam)
+#         return result
+#     return None
+
+
+
+# for i in train_data:
+#     sonuc=run(liste,i)
+#     if sonuc != None:
+#         print(sonuc)
+
